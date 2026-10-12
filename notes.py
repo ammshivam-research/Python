@@ -298,3 +298,79 @@ print(len(name))
 
 s = "123456789"
 print(len(s))
+
+##GrPA - 3
+
+s = "hello pyhton"
+course_code = "24t2cs1002"
+print(s[2])
+print(s[-4])
+print(s[0:3])
+print(s[::2])
+print(s[10:13])
+print(s[::-1])
+print(int(course_code[3]))
+print(int(course_code[0:2]))
+
+GrPA - 4
+word1 = "Wingardium"
+word2 = "Leviosha"
+word3 = "Silver"
+
+a = "Hey"
+b = "Hey"
+c = "Hey"
+
+Sentence = "Learning Python is fun"
+
+n1 = 4
+n2 = 6
+
+print(word1,"",word2)
+print(word1[0:4],"-",word2[-4:])
+print(word3,"",str(n1))
+print("-" * 50)
+print("-" * n2)
+print(n1 ** n2)
+print(word1 == word2 == word3)
+print(a == b == c)
+print("H" in a)
+print(word2[-1] == ["a" or "A"])
+print("a" in word1[-1] or "A" in word1[-1])
+print("5 + 2")
+print(5>2 and 5<2)
+print(type(5 == 5 and "2"))
+print(type("555"[-2]))
+a = input("True")
+print(type(a))
+b = False
+print(type(b))
+
+a = str(5) * int("2")
+print(type(a))
+
+print(3 + 4 * 5 // 2)
+print(3 + (4 * (5 // 2)))
+print(3 + ((4 * 5) // 2))
+print((3 + 4) * (5 // 2))
+print(((3 + 4) * 5)//2 )
+
+print(4 + 3 > 2 * 1)
+print((4 + 3) > (2 * 1))
+print(4 + (3 > (2 *1)))
+print((4 + 3 > 2) * 1)
+print(4 + (3 > 2) * 1)
+
+a = 3
+b = 4
+c = 1
+d = 2
+
+print( a == b > c == d)
+print( a == (b > ( c == d)))
+
+print((a == b) and (b > c) and (c == d))
+print((a == (b > c)) and ((b > c) == d))
+
+
+not False or True and False

@@ -1,0 +1,7 @@
+### Note :
+1. Variables should be self explanatory.
+2. Use "#" symbol to write a comment.
+3. Write as much comments as you need, unapologetically.
+4. Using descriptive, self-explanatory variable names as a good programming practice, adding comments using # (everything after # on a line is ignored by Python), the rules for valid variable names (must start with a letter or underscore, cannot start with a digit, cannot contain spaces or hyphens, cannot be a reserved keyword), the SyntaxError raised by invalid variable names, and the fact that # only starts a comment outside of a string, not inside one.
+5. Dynamic Typing in Variables : Every peice of data are stored in a different memory location.
+6. Dynamic typing — a variable's type is determined by its current value and can change freely upon reassignment, the / operator always performing true division and returning a float even when dividing by 1 or when the result is a whole number, the // operator preserving int type (unlike /), variables being independent copies (reassigning one does not affect a variable that copied its earlier value), a variable passing through multiple different types across its lifetime via successive reassignments, and reassigning a variable from int to bool.
